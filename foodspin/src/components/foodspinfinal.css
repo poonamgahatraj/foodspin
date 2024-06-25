@@ -1,0 +1,141 @@
+.Eclipse{
+    position: absolute;
+  
+    height: 143vh;
+    width: 100vw;
+    border-radius: 50%;
+    background-color:#FFEEDE;
+    top: -74%;
+    left: 20%;
+    z-index: 1;
+    overflow: hidden; 
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    position: relative;
+}
+
+.Images {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 385px;
+    margin-top: 10%;
+    border: 1px dashed;
+    border-radius: 50%;
+    top: 68%;
+    left: 38%;
+    z-index: 4;
+}
+
+.ImageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-origin: center center;
+    transition: transform 0.5s ease;
+}
+
+
+
+.Images img:nth-child(1) {
+   position: absolute; 
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(2) {
+    position: absolute; 
+    top: 48%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(3) {
+    position: absolute; 
+    top: 15%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(4) {
+    position: absolute; 
+    top: 85%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(5) {
+    position: absolute; 
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(6) {
+    position: absolute; 
+    top: 85%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(7) {
+    position: absolute; 
+    top: 47%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(8) {
+    position: absolute; 
+    top: 15%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+
+    
+.Food{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+   
+ 
+    cursor: pointer;
+    z-index: 3;
+    transition: transform 0.3s ease;
+}
+
+
+
+.SelectedImageContainer {
+    position: absolute;
+    top: 69%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+
+
+
+.SelectedFood{
+    height:170px;
+    width:170px;
+    border-radius: 50%;
+    
+}
+
+.Dropdown{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    position: absolute;
+    top: 80%;
+    left: 54%;
+}

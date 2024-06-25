@@ -1,0 +1,156 @@
+.Content{
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 2%;
+    z-index: 1;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+.Information {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+}
+
+.Detail {
+    width: 50%;
+}
+
+
+.Food{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    border:3px solid black;
+    position: absolute;
+    cursor: pointer;
+    z-index: 3;
+    transition: transform 0.3s ease;
+}
+
+
+.Images {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 440px;
+    margin-top: 10%;
+    border: 1px dashed;
+    border-radius: 50%;
+    top:60%;
+    left:25%;
+    z-index: 4; 
+    
+    
+}
+
+
+.ImageContainer {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-origin: center center;
+    transition: transform 0.5s ease;
+}
+
+.Images img:nth-child(1) {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(2) {
+    top: 21%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(3) {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(4) {
+    top: 85%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(5) {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(6) {
+    top: 88%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(7) {
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.Images img:nth-child(8) {
+    top: 21%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.SelectedImageContainer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+}
+    
+
+
+.SelectedFood{
+    height:250px;
+    width:250px;
+    border-radius: 50%;
+    
+}
+
+
+.Eclipse {
+   
+    height: 65vw;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: 31%;
+    top: -60%;
+    z-index: 1;
+
+    }
+
+    .Header{
+        display: flex;
+        justify-content: space-between;
+        z-index: 2;
+      
+    }
+
+
+
