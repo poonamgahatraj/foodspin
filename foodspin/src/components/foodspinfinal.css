@@ -5,8 +5,8 @@
     width: 100vw;
     border-radius: 50%;
     background-color:#FFEEDE;
-    top: -74%;
-    left: 20%;
+    top: -70%;
+    left: 27%;
     z-index: 1;
     overflow: hidden; 
 }
@@ -28,8 +28,8 @@
     margin-top: 10%;
     border: 1px dashed;
     border-radius: 50%;
-    top: 68%;
-    left: 38%;
+    top: 67%;
+    left: 33%;
     z-index: 4;
 }
 
@@ -116,8 +116,8 @@
 
 .SelectedImageContainer {
     position: absolute;
-    top: 69%;
-    left: 73%;
+    top: 72%;
+    left: 75%;
     transform: translate(-50%, -50%);
     z-index: 6;
 }
@@ -134,8 +134,8 @@
 .Dropdown{
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 35%;
     position: absolute;
     top: 80%;
-    left: 54%;
+    left: 58%;
 }

@@ -31,9 +31,9 @@ export default function FoodSpinFinal (){
     };
     return(
         <>
-        <div style={{border:"1px solid black",height:"100vh",width:"100%",position:"relative",overflow:"hidden"}}>
+        <div style={{border:"1px solid black",height:"100vh",width:"100vw",position:"relative",overflow:"hidden"}}>
 
-           
+           <div style={{paddingLeft:"5%",paddingRight:"5%",paddingTop:"2%"}}>
             <div className="Eclipse" style={{backgroundColor: selectedImage ? selectedImage.color : 'grey' }}>
             <div className='Images'>
 <div className='ImageContainer' style={{transform: `rotate(${rotationAngle}deg)`}}>
@@ -74,7 +74,7 @@ export default function FoodSpinFinal (){
 
             <div className="Header">
         <div><img src='.\foodspinLogo.png'></img></div>
-        <div style={{display:'flex',justifyContent:"space-between",width:"25%"}}>
+        <div style={{display:'flex',justifyContent:"space-between",width:"20%"}}>
             <p>Breakfast</p>
             <p>Lunch</p>
             <p>Dinner</p>
@@ -87,13 +87,15 @@ export default function FoodSpinFinal (){
         </div>
 
         {selectedImage && (
-                    <div className="Details" style={{ marginTop: "15%" }}>
-                        <h1 style={{ color: selectedImage.color }}>{selectedImage.price}</h1>
-                        <h1 style={{ width: "20%" }}>{selectedImage.name}</h1>
+                    <div className="Details" style={{ marginTop: "5%" }}>
+                        <h1 style={{ color: selectedImage.color ,fontSize:"50px"}}>{selectedImage.price}</h1>
+                        <h1 style={{ width: "20%" ,fontSize:"35px" }}>{selectedImage.name}</h1>
                         <p style={{ width: "25%" }}>{selectedImage.description}</p>
-                        <button style={{ padding: "10px", borderRadius: "20px", backgroundColor: selectedImage.color , border: "none" }}>ORDER NOW</button>
+                        <button style={{ padding: "15px", borderRadius: "20px", backgroundColor: selectedImage.color , border: "none",marginTop:"10px",color:"white" }}>ORDER NOW</button>
                     </div>
                 )}
+
+</div>
         </div>
         </>
     )
