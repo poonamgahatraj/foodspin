@@ -1,14 +1,14 @@
-.Eclipse{
+.Eclipse {
     position: absolute;
-  
-    height: 143vh;
-    width: 100vw;
+    height: 85vw;
+    width: 87vw;
     border-radius: 50%;
-    background-color:#FFEEDE;
-    top: -70%;
-    left: 27%;
+    background-color: #FFEEDE;
+    top: -105%;
+    left: 20%;
     z-index: 1;
-    overflow: hidden; 
+    overflow: hidden;
+  
 }
 
 .Header{
@@ -16,23 +16,22 @@
     justify-content: space-between;
     z-index: 3;
     position: relative;
+    align-items: center;
 }
-
 .Images {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 385px;
+    height: 50%;
     margin-top: 10%;
-    border: 1px dashed;
+    border: 2px dashed orange;
     border-radius: 50%;
-    top: 67%;
-    left: 33%;
+    top: 68%;
+    left: 24%;
     z-index: 4;
 }
-
 .ImageContainer {
     position: relative;
     width: 100%;
@@ -45,59 +44,70 @@
 
 .Images img:nth-child(1) {
    position: absolute; 
-    top: 1%;
-    left: 50%;
+    top: 0%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(2) {
     position: absolute; 
-    top: 48%;
-    left: 97%;
+    top: 43%;
+    left: 100%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(3) {
     position: absolute; 
-    top: 15%;
-    left: 84%;
+    top: 11%;
+    left: 83%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(4) {
     position: absolute; 
-    top: 85%;
-    left: 84%;
+    top: 76%;
+    left: 93%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(5) {
     position: absolute; 
-    top: 100%;
-    left: 50%;
+    top: 96%;
+    left: 69%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(6) {
     position: absolute; 
-    top: 85%;
-    left: 13%;
+    top: 98%;
+    left: 37%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(7) {
     position: absolute; 
-    top: 47%;
-    left: 0%;
+    top: 46%;
+    left: 1%;
     transform: translate(-50%, -50%);
 }
 
 .Images img:nth-child(8) {
     position: absolute; 
-    top: 15%;
-    left: 17%;
+    top: 14%;
+    left: 16%;
     transform: translate(-50%, -50%);
 }
+
+
+.Images img:nth-child(9) {
+    position: absolute; 
+    top: 82%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 
 
     
@@ -116,8 +126,8 @@
 
 .SelectedImageContainer {
     position: absolute;
-    top: 72%;
-    left: 75%;
+    top: 75%;
+    left: 63%;
     transform: translate(-50%, -50%);
     z-index: 6;
 }
@@ -125,8 +135,8 @@
 
 
 .SelectedFood{
-    height:170px;
-    width:170px;
+    height:20vw;
+    width:20vw;
     border-radius: 50%;
     
 }
@@ -134,8 +144,8 @@
 .Dropdown{
     display: flex;
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
     position: absolute;
-    top: 80%;
-    left: 58%;
+    top: 85%;
+    left: 43%;
 }
